@@ -18,3 +18,6 @@ A script made for a ESP8266 microprocessor to read from a PIR sensor and alert v
 ## To receive notifications
 1. Download IFTTT app from your mobile devices app store
 2. Log in and allow notifications
+
+### Note
+Comment out (//) the ifttt() function to test via LED only and avoid notification spam.
