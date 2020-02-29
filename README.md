@@ -7,6 +7,10 @@ A script made for a ESP8266 microprocessor to read from a PIR sensor and alert v
 2. Set up IF webhooks THEN Notification (Rich) applet
 3. Note the event_trigger name and webhook code (bit after /use/ in settings)
 
+## To set up ESP8266 in Arduino (first time only)
+1. In preferences, add additional board manager url https://arduino.esp8266.com/stable/package_esp8266com_index.json, if not already
+2. In Tools select the correct board manager, I used NodeMCU 1.0 (ESP-12E Module) for my Lolin v3 wide board
+
 ## To run the code on the device
 1. Open file via Arduino IDE
 2. Replace SSID and Password with WIFI information
